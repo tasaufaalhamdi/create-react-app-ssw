@@ -1,0 +1,26 @@
+.item {
+	.img-container {
+		// width: 369px;
+		// height: 385px;
+		// background-image: url('../../assets/sharks-imgs/img-bg.png');
+		// background-position: center;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			border-radius: 15px;
+		}
+	}
+}
+
+@media (max-width: 1600px) {
+	.item {
+		.img-container {
+			width: 280px;
+			height: 300px;
+			border-radius: 15px;
+		}
+	}
+	
+}

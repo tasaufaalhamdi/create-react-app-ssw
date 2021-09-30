@@ -1,0 +1,128 @@
+.roadmap-container {
+	margin-top: 10rem;
+	h1 {
+		margin-bottom: 9rem;
+	}
+
+	.vertical-timeline-element--work {
+		text-align: left;
+
+		h3 {
+			color: #00213e;
+		}
+		h5 {
+			color: #1a9ab3;
+		}
+		.shark-icon {
+			box-shadow: none;
+			// svg {
+			// 	width: 60px;
+			// 	height: 60px;
+			// }
+		}
+	}
+
+	.line {
+		margin-top: 9rem;
+		margin-bottom: 7rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.vertical-timeline-element--work {
+		text-align: left;
+		.vertical-timeline-element-content {
+			border-radius: 2rem;
+			.vertical-timeline-element-content-arrow {
+				background: #fff;
+				height: 25px;
+				width: 25px;
+				border: none;
+				top: 50% !important;
+				transform: rotate(45deg) translateY(-50%) !important;
+				left: 95%;
+			}
+		}
+		// .icon-0 {
+		// 	svg {
+		// 		width: 100px;
+		// 		height: 59px;
+		// 	}
+		// }
+		// .icon-25 {
+		// 	svg {
+		// 		width: 144px;
+		// 		height: 86px;
+		// 	}
+		// }
+		// .icon-50 {
+		// 	svg {
+		// 		width: 220px;
+		// 		height: 100px;
+		// 	}
+		// }
+		// .icon-75 {
+		// 	svg {
+		// 		width: 275px;
+		// 		height: 105px;
+		// 	}
+		// }
+		// .icon-100 {
+		// 	svg {
+		// 		width: 340px;
+		// 		height: 154px;
+		// 		transform: translate(-50%, -60%) !important;
+		// 	}
+		// }
+		.shark-icon {
+			// svg {
+			// 	transform: translate(-50%, -40%);
+			// }
+			svg {
+				width: 250px;
+				height: 150px;
+				transform: translate(-50%, -60%) !important;
+			}
+		}
+		.icon-0 {
+			svg {
+				width: 200px;
+				height: 100px;
+			}
+		}
+		.shark-icon {
+			height: 250px !important;
+		}
+	}
+
+	.vertical-timeline--two-columns
+		.vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+		.vertical-timeline-element-content-arrow {
+		left: -4% !important;
+	}
+
+	.vertical-timeline--two-columns .vertical-timeline-element-content {
+		margin-left: -8rem !important;
+	}
+	.vertical-timeline--two-columns .vertical-timeline-element-content {
+		margin-right: -8rem !important;
+	}
+}
+
+@media (max-width: 1200px) {
+	.vertical-timeline-element--work {
+		.shark-icon {
+			svg {
+				width: 80px;
+				height: 80px;
+				transform: translate(-50%, -30%);
+			}
+		}
+	}
+	.roadmap-container {
+		.line {
+			margin-top: 5rem;
+			margin-bottom: 3rem;
+		}
+	}
+}

@@ -1,0 +1,34 @@
+.team-container {
+	h1 {
+		margin-bottom: 3rem;
+	}
+	// h4.desc {
+	// 	padding-left: 14rem;
+	// 	padding-right: 14rem;
+	// 	margin-bottom: 11rem;
+	// }
+	.member-name {
+		margin-top: 2rem;
+	}
+	.get-ready {
+		margin-top: 14.5rem;
+		margin-bottom: 14.5rem;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 772px) {
+	.team-container {
+		h1 {
+		}
+		h4.desc {
+			padding-left: 0rem;
+			padding-right: 0rem;
+			margin-bottom: 4rem;
+		}
+		.get-ready {
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+	}
+}
