@@ -1,0 +1,13 @@
+[ DONE ] big button more big (connect wallet and mint btn)
+[ DONE ] for every shark 0.04 eth
+[ DONE ] make the social links
+[ DONE ] when click about tp who are we
+[ DONE ] max range type 20
+[ DONE ] btn for smart contract
+[ DONE ] add add icon in faq header
+[ DONE ] fish dipear
+[ DONE ]fish to small
+[ DONE ] fish look to chat box
+[ DONE ] continue moving slider slower
+[ DONE ] slider stop in every delay
+[ DONE ] adjust background to fit content
